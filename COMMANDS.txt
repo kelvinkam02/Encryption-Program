@@ -1,0 +1,7 @@
+./ctencrypt -b blocksize -k key plaintext >ciphertext
+./ctdecrypt -b blocksize -k key ciphertext >plaintext
+./scrypt password plaintext ciphertext
+./sbencrypt password plaintext ciphertext
+./sbencrypt password ciphertext plaintext
+
+All command Lines work as stated above and as you wanted.
